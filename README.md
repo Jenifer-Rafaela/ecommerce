@@ -7,6 +7,7 @@ CREATE DATABASE sneakersEcommerce;
 
 USE sneakersecommerce;
 
+Para salvar dados do cliente e fazer a validação de email e senha e verificação de email na hora do cadastro.
 CREATE TABLE usuarios (
     id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
     Pnome varchar(140) NOT NULL,
@@ -16,6 +17,7 @@ CREATE TABLE usuarios (
     dataNasc DATE NOT NULL
 );
 
+Salvar a compra feita e poder fazer recomendações quando o cliente entrar com login.
 CREATE TABLE sneakersecommerce.itens_pedido (
 id INT NOT NULL AUTO_INCREMENT,
 marca VARCHAR(140) NOT NULL,
@@ -26,6 +28,7 @@ quantidade VARCHAR(140) NOT NULL,
 tamanhoProduto VARCHAR(140) NOT NULL,
 PRIMARY KEY (id)) ENGINE = InnoDB;
 
+Faz a relação do pedido com o cliente.
 CREATE TABLE sneakersecommerce.pedido (
 ClienteId INT(16) NOT NULL,
 Pedido INT(16) NOT NULL AUTO_INCREMENT,
