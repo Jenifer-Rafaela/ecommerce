@@ -1,7 +1,7 @@
 # ecommerce
-Trabalho A3 E-commerce
+Trabalho A3 E-commerce feito por: Jenifer Rafaela Ribeiro da Costa, Fernando Barbosa Ferreira, Gabriel Dias de Oliveira
 
-É necessário usar o banco de dados para o funcionamento correto do trabalho (Copie todo o sql abaixo e cole no mysql).
+necessário usar o banco de dados para o funcionamento correto do trabalho (Copie todo o sql abaixo e cole no mysql).
 
 CREATE DATABASE sneakersEcommerce;
 
