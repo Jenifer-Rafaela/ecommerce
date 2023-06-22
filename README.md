@@ -1,5 +1,5 @@
 # ecommerce
-Trabalho A3 E-commerce feito por: Jenifer Rafaela Ribeiro da Costa, Fernando Barbosa Ferreira, Gabriel Dias de Oliveira
+Trabalho A3 E-commerce feito por: Jenifer Rafaela, Fernando Barbosa, Gabriel Dias.
 
 necessário usar o banco de dados para o funcionamento correto do trabalho (Copie todo o sql abaixo e cole no mysql).
 
