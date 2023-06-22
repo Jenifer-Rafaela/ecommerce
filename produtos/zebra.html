@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adidas - Yeezy Boost 350 Zebra</title>
+    <link rel="stylesheet" href="../src/css/compra.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="../inicio.html" class="logo-color">
+                <h1 class="logo-color">Net</h1>
+                <h1 class="logo-color">Sneakers</h1>
+            </a>
+        </div>
+        <ul class="lista-marcas">
+            <li class="link-menu"><a href="../marcas/nike.html">NIKE</a></li>
+            <li class="link-menu"><a href="../marcas/newBalance.html">NEW BALANCE</a></li>
+            <li class="link-menu"><a href="../marcas/adidas.html">ADIDAS</a></li>
+            <li class="link-menu"><a href="../marcas/puma.html">PUMA</a></li>
+            <li class="link-menu" id="login"><a href="../login.html">LOGIN</a></li>
+            <li class="dropdown" id="nome">
+                <a class="nome-usuario"><span id="nomeUsuario"></span> <span id="sobrenomeUsuario"></span></a>
+                <div class="dropdown-menu">
+                    <a href="../carrinho.html">Carrinho</a>
+                    <a href="../login.html" id="Sair">Sair</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="produtoVend">
+            <img src="../src/img/img2/Yeezy Boost 350 v2 Zebra.png" alt="tenis"
+                id="item-img">
+        </div>
+        <aside>
+            <h1 id="item-name">Adidas - Yeezy Boost 350 Zebra</h1>
+            <span hidden id="marca">adidas</span>
+            <h3>Casual</h3>
+            <span>R$ <span id="item-value" valor="1520.00">1.520,00</span></span><br><br>
+            <span>Ou 4x de R$ 380,00</span><br><br>
+            <form>
+                <input type="radio" id="tamanho35" name="tamanho" value="35">
+                <label for="tamanho35" data-size="35"></label>
+
+                <input type="radio" id="tamanho36" name="tamanho" value="36">
+                <label for="tamanho36" data-size="36"></label>
+
+                <input type="radio" id="tamanho37" name="tamanho" value="37">
+                <label for="tamanho37" data-size="37"></label>
+
+                <input type="radio" id="tamanho40" name="tamanho" value="40">
+                <label for="tamanho40" data-size="40"></label>
+
+                <input type="radio" id="tamanho44" name="tamanho" value="44">
+                <label for="tamanho44" data-size="44"></label>
+            </form>
+            <br>
+            <button id="meuBotao">Adicionar ao carrinho</button>
+        </aside>
+    </main>
+    <script src="../src/cliente.js"></script>
+    <script src="../src/carrinho.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adidas - Bad Bunny</title>
+    <link rel="stylesheet" href="../src/css/compra.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1><a class="logo" href="../inicio.html">Net</a></h1>
+            <h1><a class="logo" href="../inicio.html">Sneakers</a></h1>
+        </div>
+        <ul class="lista-marcas">
+            <a class="link-menu" href="#">NIKE</a>
+            <a class="link-menu" href="#">NEW BALANCE</a>
+            <a class="link-menu" href="#">ADIDAS</a>
+            <a class="link-menu" href="#">PUMA</a>
+            <h2 class="nome-usuario"><span id="nomeUsuario"></span> <span id="sobrenomeUsuario"></span></h2>
+            <a class="link-menu" href="../carrinho.html">Carrinho</a>
+        </ul>
+    </nav>
+    <main>
+        <div class="produtoVend">
+            <img src="../src/img/img2/Bad_Bunny_x_Adidas_Forum_Low_Pink_Easter_Egg-removebg-preview (1).png" alt="tenis" id="item-img">
+        </div>
+        <aside>
+            <h1 id="item-name" marca="Adidas">Adidas - Bad Bunny</h1>
+            <h3>Casual</h3>
+            <span>R$ <span id="item-value" valor="1350.99">1.350,99</span></span><br><br>
+            <span>Ou 4x de R$ 337,50</span>
+            <form>
+                <input type="radio" id="tamanho35" name="tamanho" value="35">
+                <label for="tamanho35" data-size="35"></label>
+                
+                <input type="radio" id="tamanho36" name="tamanho" value="36">
+                <label for="tamanho36" data-size="36"></label>
+                
+                <input type="radio" id="tamanho37" name="tamanho" value="37">
+                <label for="tamanho37" data-size="37"></label>
+                
+                <input type="radio" id="tamanho40" name="tamanho" value="40">
+                <label for="tamanho40" data-size="40"></label>
+                
+                <input type="radio" id="tamanho44" name="tamanho" value="44">
+                <label for="tamanho44" data-size="44"></label>
+            </form>
+            <br>
+            <button id="meuBotao">Adicionar ao carrinho</button>
+        </aside>
+    </main>
+    <script src="../src/cliente.js"></script>
+    <script src="../src/carrinho.js"></script>
+</body>
+</html>

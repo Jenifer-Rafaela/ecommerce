@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./src/css/cadastro.css">
+</head>
+<body>
+    <a href="./login.html"><button id="voltar">VOLTAR</button></a>
+    
+    <form action="cadastrar.php" method="POST">
+        <h2>CADASTRO</h2><br>
+        <input type="text" placeholder="Nome" name="nome" required> <br>
+        <input type="text" placeholder="Sobrenome" name="sobrenome" required> <br>
+        <input type="email" placeholder="E-mail" name="email" required> <br>
+        <input type="password" placeholder="Nova senha" name="senha" required> <br>
+        <input type="date" placeholder="Data de nascimento" name="dataNasc" required>  <br> 
+        <button type="submit" class="botao-enviar">CADASTRAR</button>     
+    </form>
+    
+</body>
+</html>

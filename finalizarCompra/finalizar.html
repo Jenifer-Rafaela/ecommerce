@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar compra</title>
+    <link rel="stylesheet" href="finalizar.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Net</h1>
+            <h1>Sneakers</h1>
+        </div>
+    </nav>
+    <main>
+    <form>
+        <h2>Finalizar compra</h2><br>
+        <input type="text" placeholder="Nome Completo" class="informacoes-princ" required><br>
+        <input type="email" placeholder="E-mail" class="informacoes-princ" required><br>
+        <input type="text" placeholder="Endereço" class="informacoes-princ" required><br>
+        <input type="number" placeholder="CEP" class="informacoes-princ" required><br>
+
+        <div>
+        <input type="radio" name="opcao" value="pix">PIX<br>
+        <input type="radio" name="opcao" value="cartao">CARTÃO<br>
+        <input type="radio" name="opcao" value="boleto">BOLETO<br>
+        </div><br>
+
+        <a href="compraFinal.html" class="color" id="botaoFinalizar">Finalizar</a>
+    </form>
+</main>
+    <script src="../src/finalizaCompra.js"></script>
+</body>
+</html>
